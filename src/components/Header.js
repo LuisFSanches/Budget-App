@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export const Header = ()=>{
-  return(
-    <>
-      <h2>Expense Tracker</h2>
-    </>
-  )
+export default function Header() {
+  return (
+    <div className="header">
+      <h1>Budged</h1>
+    </div>
+  );
 }

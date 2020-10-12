@@ -1,10 +1,20 @@
-import React from 'react'
+import React from "react";
 
-export const Balance = () => {
+export default function Balance() {
   return (
-    <>
-      <h4>Your Balance</h4>
-      <h1>$0.00</h1>
-    </>
-  )
+    <div className="balance">
+      <h2>Your Balance</h2>
+      <h3>$0.00</h3>
+      <div className="income-expense">
+        <div className="plus">
+          <h3>Income</h3>
+          <p>+ $0.00</p>
+        </div>
+        <div className="minus">
+          <h3>Expenses</h3>
+          <p>- $0.00</p>
+        </div>
+      </div>
+    </div>
+  );
 }
